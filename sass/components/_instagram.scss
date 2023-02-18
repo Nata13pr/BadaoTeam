@@ -1,0 +1,92 @@
+.instagram{
+    margin-top: 60px;
+
+    @media screen  and (min-width:768px){
+        margin-top: 80px;
+    }
+
+    @media screen  and (min-width:1320px){
+        margin-top: 250px;
+    }
+}
+.instagram>h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+
+    text-transform: uppercase;
+
+    @media screen and (min-width:768px) {
+        margin-bottom: 60px;
+        font-size: 36px;
+        line-height: 120%;
+    }
+
+    @media screen and (min-width:1320px) {
+        margin-bottom: 100px;
+        font-size: 72px;
+        line-height: 120%;
+    }
+}
+
+.instagram img {
+    display: block;
+}
+
+.instagram-photos {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.photo-ninth {
+    @media screen and (max-width:1319px) {
+        display: none;
+    }
+}
+
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.instagram-photo {
+
+    @media screen and (max-width:1319px) {
+        width: calc((100% - 20px) / 2);
+        margin-right: 20px;
+    }
+
+    &:nth-child(2n) {
+        @media screen and (max-width:1319px) {
+            margin-right: 0;
+        }
+    }
+
+    &:not(:nth-last-child(-n + 2)) {
+        @media screen and (max-width:1319px) {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media screen and (min-width:1320px) {
+        width: calc((100% - 60px) / 3);
+        margin-right: 30px;
+    }
+
+    &:not(:nth-last-child(-n + 3)) {
+        @media screen and (min-width:1320px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &:nth-child(3n) {
+        @media screen and (min-width:1320px) {
+            margin-right: 0;
+        }
+    }
+}

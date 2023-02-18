@@ -1,0 +1,23 @@
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        },
+        {
+            
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": true,
+    //autoprefix, will auto add perfix like -webkit- -moz-..
+    "liveSassCompile.settings.autoprefix": null,
+    "liveServer.settings.port": 1235
+}

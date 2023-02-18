@@ -1,0 +1,57 @@
+.button {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background-color: #F9BA50;
+    border-radius: 0px 40px 40px 0px;
+
+    @media screen and (min-width:1320px) {
+        font-size: 18px;
+        line-height: 1.16;
+    }
+}
+
+.button-arrow {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+
+    @media screen and (min-width:1320px) {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.button-hero {
+    min-width: 277px;
+
+    @media screen and (min-width:1320px) {
+        margin-right: 110px;
+    }
+}
+
+.button-about{
+    min-width: 277px;
+}
+.button-scedule {
+    min-width: 280px;
+
+    @media screen and (min-width:768px) {
+        min-width: 314px;
+    }
+
+    @media screen and (min-width:1320px) {
+        min-width: 350px;
+    }
+}

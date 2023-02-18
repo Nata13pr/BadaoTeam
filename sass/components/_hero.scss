@@ -1,0 +1,141 @@
+.hero {
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+@media screen and (min-width:1320px){
+    margin-bottom: 150px;
+}
+}
+
+.hero-explanation {
+    padding-top: 9px;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    /* or 18px */
+    color: #FFFFFF;
+
+    @media screen and (min-width:768px) {
+        padding-top: 60px;
+        margin-bottom: 77px;
+        max-width: 222px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    @media screen and (min-width:1320px) {
+        padding-top: 85px;
+        margin-bottom: 154px;
+        max-width: 330px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+}
+
+.hero h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 0;
+
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+    /* or 53px */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    @media screen and (min-width:768px) {
+        margin-bottom: 77px;
+        font-size: 64px;
+        text-align: center;
+
+    }
+
+    @media screen and (min-width:1320px) {
+        margin-bottom: 197px;
+        font-size: 72px;
+        text-align: left;
+        word-spacing: 57px;
+    }
+
+
+}
+
+.hero-details {
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 0;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+
+    color: #FFFFFF;
+
+    @media screen and (min-width:768px) {
+        margin-bottom: 0;
+        max-width: 380px;
+        font-size: 16px;
+
+    }
+
+    @media screen and (min-width:768px) {
+        max-width: 380px;
+        font-size: 18px;
+    }
+}
+
+.container-hero{
+    position: relative;
+
+    @media screen and (min-width:768px) {
+        overflow: hidden;
+    }
+}
+
+
+.thumb-hero{
+    position: absolute;
+    left:0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    z-index: -1; 
+}
+
+.hero-img {
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+
+    @media screen and (min-width:768px) {
+        max-width: 578px;  
+    }
+
+    @media screen and (min-width:1320px) {
+        max-width: 690px;
+    }
+  }
+.hero-signup {
+
+    @media screen and (min-width:768px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
